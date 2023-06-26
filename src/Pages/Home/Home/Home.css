@@ -1,0 +1,10 @@
+.slick-prev:before {
+    display: none !important;
+  }
+  .slick-next:before {
+    display: none !important;
+  }
+  .slick-dots li button:before {
+    display: none !important;
+  }
+  
