@@ -47,7 +47,8 @@ const Resome = () => {
 
   return (
     <div className=" p-4">
-      <h1 className="text-center mt-16 text-7xl font-bold">MY RESSOME</h1>
+      <h1 className="text-center mt-16 text-7xl font-bold">My Resume</h1>
+      <p className="text-center mt-4"> 1+ YEARS OF EXPERIENCE</p>
       <div className="flex justify-center mt-8">
         <div className="tabs tabs-boxed p-4 ">
           <div>

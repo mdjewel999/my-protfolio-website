@@ -8,9 +8,8 @@ const Home = () => {
   const texts = [
     "Front end Developer",
     "Professional Coder",
-    "MERN Stack Devel",
-    "Another slide text goes here",
-    "Yet another slide text goes here",
+    "MERN Stack Developer",
+    "A NoSQL database and flexible",
   ];
 
   const settings = {
@@ -28,7 +27,7 @@ const Home = () => {
       <div className="hero min-h-screen bg-base-200">
         <div className="hero-content grid grid-cols-2 gap-24">
           <div className="slider-container">
-            <h2 className="text-7xl mb-6">Hi, I m Md.Jewel </h2>
+            <h2 className="text-7xl mb-6 gradient-text font-semibold">Hi, I m Md.Jewel </h2>
             <Slider {...settings}>
               {texts.map((text, index) => (
                 <div key={index}>
