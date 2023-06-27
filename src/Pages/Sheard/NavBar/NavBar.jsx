@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import myimage from "../../../assets/Banner/jewel2.jpg"
 
 const NavBar = () => {
   
@@ -8,13 +9,13 @@ const NavBar = () => {
       <Link to="/">HOME</Link>
     </li>
     <li>
-      <Link>SKILLS</Link>
+      <Link to="myskills">SKILLS</Link>
     </li>
     <li>
       <Link>PORTFOLIO</Link>
     </li>
     <li>
-      <Link>RESUME</Link>
+      <Link to="resome">RESUME</Link>
     </li>
     <li>
       <Link>TESTIMONIAL</Link>
@@ -56,7 +57,7 @@ const NavBar = () => {
               {navOptions}
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Bistro Boss</a>
+          <img className="w-h-8 h-8 rounded" src={myimage} alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
