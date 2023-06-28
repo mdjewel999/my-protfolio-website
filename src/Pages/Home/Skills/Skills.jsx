@@ -12,6 +12,8 @@ import mongoDBLogo from "../../../assets/skills/icons8-mongodb-96.png";
 import gitHubLogo from "../../../assets/skills/icons8-github-96.png";
 import gitLogo from "../../../assets/skills/icons8-git-96.png";
 import nextLogo from "../../../assets/skills/icons8-js-100.png";
+import redux from "../../../assets/skills/Redux.png"
+import context from "../../../assets/skills/cotext.png"
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -24,7 +26,7 @@ const Skills = () => {
     AOS.refresh();
   }, []);
   return (
-    <div id="skills" className="my-14 w-full mx-auto">
+    <div id="skills" className=" w-full mx-auto">
       <div>
         <h1 className="title-text text-4xl text-center mb-8">
           Technical Skills
@@ -185,6 +187,30 @@ const Skills = () => {
           <img className="mx-auto" src={nextLogo} alt="Next Js" />
           <h5 className="mb-2 text-2xl font-bold tracking-tight  text-gray-900 ">
             Next JS
+          </h5>
+        </div>
+        {/* redux js */}
+        <div
+          data-aos="fade-down-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
+        >
+          <img className="mx-auto" src={redux} alt="Next Js" />
+          <h5 className="mb-2 text-2xl font-bold tracking-tight  text-gray-900 ">
+            Redux
+          </h5>
+        </div>
+        {/* context js */}
+        <div
+          data-aos="fade-down-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
+        >
+          <img className="mx-auto" src={context} alt="Next Js" />
+          <h5 className="mb-2 text-2xl font-bold tracking-tight  text-gray-900 ">
+            Context API
           </h5>
         </div>
       </div>

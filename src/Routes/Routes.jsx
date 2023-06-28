@@ -7,6 +7,7 @@ import MySkills from "../Pages/Home/MySkills/MySkills";
 import Resome from "../Pages/Resome/Resome";
 import PersonalInfo from "../LayOut/PersonalInfo";
 import Contact from "../Pages/Contact/Contact";
+import Projects from "../Pages/Home/Projects/Projects";
 
   export const router = createBrowserRouter([
     {
@@ -35,6 +36,10 @@ import Contact from "../Pages/Contact/Contact";
         {
           path:'contact',
           element:<Contact></Contact>
+        },
+        {
+          path:'protfolio',
+          element:<Projects></Projects>
         }
       ]
     }

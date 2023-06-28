@@ -1,3 +1,7 @@
+import { Link } from "react-router-dom";
+import person from "../../assets/skills/person.png";
+import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
+
 const Contact = () => {
   return (
     <div className="mb-8 p-4">
@@ -9,13 +13,12 @@ const Contact = () => {
       <div>
         <div className="hero  bg-base-200 mt-16">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            
-            <div className="card flex-shrink-0 w-2/3  shadow-2xl bg-base-100">
+            <div className="card flex-shrink-0 w-full  shadow-2xl bg-base-100">
               <div className="card-body">
-                <div className="flex gap-4  mb-4">
+                <div className=" mb-6">
                   <div className="form-control w-full ">
                     <label className="label">
-                      <span className="label-text">YOUR NAME</span>
+                      <span className="label-text mb-2">YOUR NAME</span>
                     </label>
                     <input
                       type="text"
@@ -25,7 +28,7 @@ const Contact = () => {
                   </div>
                   <div className="form-control w-full">
                     <label className="label">
-                      <span className="label-text">PHONE NUMBER</span>
+                      <span className="label-text mb-2">PHONE NUMBER</span>
                     </label>
                     <input
                       type="text"
@@ -34,9 +37,9 @@ const Contact = () => {
                     />
                   </div>
                 </div>
-                <div className="form-control mb-4">
+                <div className="form-control mb-6">
                   <label className="label">
-                    <span className="label-text">YOUR EMAIL</span>
+                    <span className="label-text mb-2">YOUR EMAIL</span>
                   </label>
                   <input
                     type="text"
@@ -45,8 +48,8 @@ const Contact = () => {
                   />
                 </div>
 
-                <div className="form-control mb-4">
-                    <span className="label-text">YOUR MESSAGE</span>
+                <div className="form-control mb-8">
+                  <span className="label-text mb-2">YOUR MESSAGE</span>
                   <textarea
                     className="textarea textarea-bordered h-24"
                     placeholder=""
@@ -60,12 +63,48 @@ const Contact = () => {
             </div>
 
             <div className="text-center lg:text-left">
-              <h1 className="text-5xl font-bold">Login now!</h1>
-              <p className="py-6">
-                Provident cupiditate voluptatem et in. Quaerat fugiat ut
-                assumenda excepturi exercitationem quasi. In deleniti eaque aut
-                repudiandae et a id nisi.
-              </p>
+              <div className="card w-96 bg-base-100 shadow-xl">
+                <figure>
+                  <img src={person} alt="Shoes" />
+                </figure>
+                <div className="card-body">
+                  <h1 className="card-title text-2xl">MD.JEWEL RHAMAN ZEHAD</h1>
+                  <h2 className="mt-4">MERN Stack-developer</h2>
+                  <p>
+                    I am available for freelance work. Connect with me via email
+                    and call in to my account.
+                  </p>
+                  <p className="mt-4">Phone: +8801761105578</p>
+                  <p>Email: mdjewel878761@gmail.com</p>
+                  <h3 className="mt-4">FIND WITH ME</h3>
+                  <div className="card-actions justify-start">
+                    <div className="flex gap-10">
+                      <Link
+                        className="flex justify-center items-center mt-2 w-[52px] h-[52px] text-gray-700 hover:text-gray-900 bg-white rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400 hover:bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400"
+                        target="_blank"
+                        to="https://www.facebook.com/"
+                      >
+                        {" "}
+                        <FaFacebook />
+                      </Link>
+                      <Link
+                        className="flex justify-center items-center mt-2 w-[52px] h-[52px] text-gray-700 hover:text-gray-900 bg-white rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400 hover:bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400"
+                        target="_blank"
+                        to="https://github.com/mdjewel999"
+                      >
+                        <FaGithub />
+                      </Link>
+                      <Link
+                        className="flex justify-center items-center mt-2 w-[52px] h-[52px] text-gray-700 hover:text-gray-900 bg-white rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400 hover:bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400"
+                        target="_blank"
+                        to="https://www.linkedin.com/in/md-jewel-954986250/"
+                      >
+                        <FaLinkedinIn />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

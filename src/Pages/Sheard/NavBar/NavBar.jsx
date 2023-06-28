@@ -12,7 +12,7 @@ const NavBar = () => {
       <Link to="myskills">MY SKILLS</Link>
     </li>
     <li>
-      <Link>PORTFOLIO</Link>
+      <Link to="protfolio">PORTFOLIO</Link>
     </li>
     <li>
       <Link to="resome">RESUME</Link>
@@ -57,7 +57,7 @@ const NavBar = () => {
               {navOptions}
             </ul>
           </div>
-          <img className="w-h-8 h-8 rounded" src={myimage} alt="" />
+          <img className="w-h-8 h-8 rounded-md border-gray-200" src={myimage} alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>

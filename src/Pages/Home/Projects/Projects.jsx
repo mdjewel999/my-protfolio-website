@@ -20,12 +20,15 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects">
-
-      <h1 className="text-center font-bold text-7xl text-violet-600 mt-6 pt-4 gap-10">
-      My Portfolio
+    <div id="projects" className="mb-8 p-4">
+      <div className="">
+      <h1 className="text-center font-bold text-7xl text-violet-600 mt-10  pt-4 gap-10">
+        My Portfolio
       </h1>
- <h2 className="text-center font-bold text-2xl text-violet-600 mt-4">VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h2>
+      <h2 className="text-center font-bold text-2xl text-violet-600 mt-4">
+        VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
+      </h2>
+      </div>
       <div className="w-full  mx-auto my-6 grid sm:grid-cols-1 lg:grid-cols-2">
         {/* shutter camp */}
         <div
@@ -266,12 +269,12 @@ const Projects = () => {
                     </h3>
                     <p className="dark:text-white">
                       ● This project is based on some popular Healthy Food
-                      Recipe. <br /> ● It is a single page application. There you
-                      will find chefs and their famous recipes worldeiwd. <br /> ● This
-                      is a Firebase authentication-based website used for user
-                      login and register system. The chefs and description of
-                      some their famous recipesand information on cooking
-                      methods, ingredients etc.
+                      Recipe. <br /> ● It is a single page application. There
+                      you will find chefs and their famous recipes worldeiwd.{" "}
+                      <br /> ● This is a Firebase authentication-based website
+                      used for user login and register system. The chefs and
+                      description of some their famous recipesand information on
+                      cooking methods, ingredients etc.
                     </p>
                     <h3 className="text-xl font-semibold text-violet-600 dark:text-violet-600">
                       Features:{" "}
