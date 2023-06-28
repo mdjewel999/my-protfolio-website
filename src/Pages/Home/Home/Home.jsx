@@ -11,7 +11,7 @@ const Home = () => {
         <div className="hero-content grid grid-cols-2 gap-24">
           <div className="slider-container">
             <h2 className="text-5xl mb-6 gradient-text font-bold">
-              Hi, I m Md.Jewel a{" "}
+              Hi, I m Md.Jewel <br /> I am a{" "}
             </h2>
 
             <div className="mt-4">
