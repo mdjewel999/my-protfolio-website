@@ -50,7 +50,7 @@ const Resome = () => {
       <h1 className="text-center mt-16 text-7xl font-bold">My Resume</h1>
       <p className="text-center mt-4"> 1+ YEARS OF EXPERIENCE</p>
       <div className="flex justify-center mt-8">
-        <div className="tabs tabs-boxed p-4 ">
+        <div className="tabs tabs-boxed">
           <div>
             <a
               className={`tab ${activeTab === 1 ? "tab-active" : ""}`}
@@ -77,6 +77,7 @@ const Resome = () => {
           </div>
           <div>
             <a
+            href="My-Resume.pdf"
               className={`tab ${activeTab === 4 ? "tab-active" : ""}`}
               onClick={() => handleTabClick(4)}
             >
@@ -87,7 +88,7 @@ const Resome = () => {
       </div>
       {activeTab === 1 && (
         <div className="grid  grid-cols-2 gap-4 mt-8">
-          <div className="card  hover:bg-purple-600 hover:text-white  bg-white shadow-xl">
+          <div className="card resomecard hover:text-white shadow-xl">
             <div className="card-body p-16">
               <h1 className="card-title text-5xl gradient-text font-bold">Education Quality</h1>
               <h2 className="text-2xl">Bachelor of Science - Chemistery</h2>
@@ -101,7 +102,7 @@ const Resome = () => {
               </p>
             </div>
           </div>
-          <div className="card  hover:bg-purple-600 hover:text-white bg-white  shadow-xl">
+          <div className="card  resomecard hover:text-white  shadow-xl">
             <div className="card-body p-16">
               <h1 className="card-title text-5xl gradient-text font-bold">Higher School certificate - Science</h1>
               <h2 className="text-2xl">Higher School certificate - Science</h2>
@@ -114,7 +115,7 @@ const Resome = () => {
               </p>
             </div>
           </div>
-          <div className="card hover:bg-purple-600 hover:text-white bg-white shadow-xl">
+          <div className="card resomecard hover:text-white shadow-xl">
             <div className="card-body p-16">
               <h1 className="card-title text-5xl hover:text-white gradient-text font-bold">
                 Web Designer and Developer
@@ -132,7 +133,7 @@ const Resome = () => {
         </div>
       )}
       {activeTab === 2 && (
-        <div className="card">
+        <div>
          <div className=" p-4">
       <div>
         <h1 className="text-center mt-4 text-5xl font-bold gradient-text">
@@ -151,7 +152,7 @@ const Resome = () => {
                 className="progress-bar mb-2 mt-3 rounded"
                 style={getGradientStyle(skill.progress)}
               >
-                <div className="progress-text ml-2">{skill.progress}%</div>
+                <div className="progress-text h-2 ml-2">{skill.progress}%</div>
               </div>
             </div>
           ))}
@@ -167,7 +168,7 @@ const Resome = () => {
                 className="progress-bar mb-2 mt-3 rounded"
                 style={getGradientStyle(skill.progress)}
               >
-                <div className="progress-text ml-2">{skill.progress}%</div>
+                <div className="progress-text h-2 ml-2">{skill.progress}%</div>
               </div>
             </div>
           ))}
@@ -178,7 +179,7 @@ const Resome = () => {
       )}
        {activeTab === 3 && (
         <div className="grid  grid-cols-2 gap-4 mt-8">
-        <div className="card  hover:bg-purple-600 hover:text-white  bg-white shadow-xl">
+        <div className="card resomecard hover:text-white shadow-xl">
           <div className="card-body p-16">
             <h1 className="card-title text-5xl gradient-text font-bold">Education Quality</h1>
             <h2 className="text-2xl">Bachelor of Science - Chemistery</h2>
@@ -192,7 +193,7 @@ const Resome = () => {
             </p>
           </div>
         </div>
-        <div className="card  hover:bg-purple-600 hover:text-white gradient-bg shadow-xl">
+        <div className="card resomecard  hover:text-white  shadow-xl">
           <div className="card-body p-16">
             <h1 className="card-title text-5xl gradient-text font-bold">Higher School certificate - Science</h1>
             <h2 className="text-2xl">Higher School certificate - Science</h2>
@@ -205,7 +206,7 @@ const Resome = () => {
             </p>
           </div>
         </div>
-        <div className="card hover:bg-purple-600 hover:text-white bg-white shadow-xl">
+        <div className="card resomecard hover:text-white shadow-xl">
           <div className="card-body p-16">
             <h1 className="card-title text-5xl hover:text-white gradient-text font-bold">
               Web Designer and Developer
@@ -231,6 +232,7 @@ const Resome = () => {
               Download Resume
             </button>
           </Link>
+         
         </div>
       )}
      

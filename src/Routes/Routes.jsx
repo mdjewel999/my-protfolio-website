@@ -6,6 +6,7 @@ import Home from "../Pages/Home/Home/Home";
 import MySkills from "../Pages/Home/MySkills/MySkills";
 import Resome from "../Pages/Resome/Resome";
 import PersonalInfo from "../LayOut/PersonalInfo";
+import Contact from "../Pages/Contact/Contact";
 
   export const router = createBrowserRouter([
     {
@@ -30,6 +31,10 @@ import PersonalInfo from "../LayOut/PersonalInfo";
         {
           path:'resome',
           element:<Resome></Resome>
+        },
+        {
+          path:'contact',
+          element:<Contact></Contact>
         }
       ]
     }
