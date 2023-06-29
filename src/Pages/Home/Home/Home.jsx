@@ -7,7 +7,7 @@ import "./Home.css";
 const Home = () => {
   return (
     <div>
-      <div className="hero min-h-screen bg-base-200">
+      <div className="hero header-banner min-h-screen bg-neutral">
         <div className="hero-content grid grid-cols-2 gap-24">
           <div className="slider-container">
             <h2 className="text-5xl mb-6 gradient-text font-bold">
@@ -43,12 +43,8 @@ const Home = () => {
             </p>
             <button className="btn btn-primary">Get Started</button>
           </div>
-          <div>
-            <img
-              src={myImage}
-              className="max-w-sm rounded-lg shadow-2xl"
-              alt="Banner"
-            />
+          <div className="banner-img">
+            <img src={myImage} className="" alt="Banner" />
           </div>
         </div>
       </div>

@@ -1,69 +1,70 @@
 import { Link } from "react-router-dom";
 import person from "../../assets/skills/person.png";
 import { FaFacebook, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className="mb-8 p-4">
+    <div className="mb-8 p-4 backgroundColor text-white">
       <div>
         <h1 className="text-center mt-16 text-5xl font-bold">
           Contact With Me
         </h1>
       </div>
       <div>
-        <div className="hero  bg-base-200 mt-16">
+        <div className="hero  mt-16 ">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <div className="card flex-shrink-0 w-full  shadow-2xl bg-base-100">
+            <div className="card flex-shrink-0 w-full  shadow-2xl ">
               <div className="card-body">
                 <div className=" mb-6">
                   <div className="form-control w-full ">
                     <label className="label">
-                      <span className="label-text mb-2">YOUR NAME</span>
+                      <span className="label-text mb-2 text-white">YOUR NAME</span>
                     </label>
                     <input
                       type="text"
                       placeholder="name"
-                      className="input input-bordered"
+                      className="input input-bordered text-black"
                     />
                   </div>
                   <div className="form-control w-full">
                     <label className="label">
-                      <span className="label-text mb-2">PHONE NUMBER</span>
+                      <span className="label-text mb-2 text-white">PHONE NUMBER</span>
                     </label>
                     <input
                       type="text"
                       placeholder="number"
-                      className="input input-bordered"
+                      className="input input-bordered text-black"
                     />
                   </div>
                 </div>
                 <div className="form-control mb-6">
                   <label className="label">
-                    <span className="label-text mb-2">YOUR EMAIL</span>
+                    <span className="label-text mb-2 text-white">YOUR EMAIL</span>
                   </label>
                   <input
                     type="text"
                     placeholder="email"
-                    className="input input-bordered"
+                    className="input input-bordered text-black"
                   />
                 </div>
 
                 <div className="form-control mb-8">
-                  <span className="label-text mb-2">YOUR MESSAGE</span>
+                  <span className="label-text mb-2  text-white">YOUR MESSAGE</span>
                   <textarea
-                    className="textarea textarea-bordered h-24"
+                    className="textarea textarea-bordered  h-24 text-black"
                     placeholder=""
                   ></textarea>
                 </div>
 
                 <div className="form-control mt-6">
-                  <button className="btn btn-primary">Send Massage</button>
+                  <button className="btn btn-primary hover:bg-white hover:text-black hover:font-bold">Send Massage</button>
                 </div>
               </div>
             </div>
 
             <div className="text-center lg:text-left">
-              <div className="card w-96 bg-base-100 shadow-xl">
+              <div className="card w-96  shadow-xl">
                 <figure>
                   <img src={person} alt="Shoes" />
                 </figure>
@@ -80,7 +81,7 @@ const Contact = () => {
                   <div className="card-actions justify-start">
                     <div className="flex gap-10">
                       <Link
-                        className="flex justify-center items-center mt-2 w-[52px] h-[52px] text-gray-700 hover:text-gray-900 bg-white rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400 hover:bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400"
+                        className="flex justify-center items-center mt-2 w-[52px] h-[52px] text-gray-700 hover:text-gray-900 rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400  dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400"
                         target="_blank"
                         to="https://www.facebook.com/"
                       >
@@ -88,14 +89,14 @@ const Contact = () => {
                         <FaFacebook />
                       </Link>
                       <Link
-                        className="flex justify-center items-center mt-2 w-[52px] h-[52px] text-gray-700 hover:text-gray-900 bg-white rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400 hover:bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400"
+                        className="flex justify-center items-center mt-2 w-[52px] h-[52px] text-gray-700 hover:text-gray-900  rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400  dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400"
                         target="_blank"
                         to="https://github.com/mdjewel999"
                       >
                         <FaGithub />
                       </Link>
                       <Link
-                        className="flex justify-center items-center mt-2 w-[52px] h-[52px] text-gray-700 hover:text-gray-900 bg-white rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400 hover:bg-gray-50 dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400"
+                        className="flex justify-center items-center mt-2 w-[52px] h-[52px] text-gray-700 hover:text-gray-900  rounded-full border border-gray-200 dark:border-gray-600 shadow-sm dark:hover:text-white dark:text-gray-400  dark:bg-gray-700 dark:hover:bg-gray-600 focus:ring-4 focus:ring-gray-300 focus:outline-none dark:focus:ring-gray-400"
                         target="_blank"
                         to="https://www.linkedin.com/in/md-jewel-954986250/"
                       >

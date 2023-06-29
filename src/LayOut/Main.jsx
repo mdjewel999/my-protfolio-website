@@ -7,10 +7,24 @@ import Projects from "../Pages/Home/Projects/Projects";
 import SpeedDial from "../Pages/SpeedDial/SpeedDial";
 import MySkills from "../Pages/Home/MySkills/MySkills";
 
+import { createContext, useLayoutEffect, useState } from 'react';
+import ParticlesDesign from '../components/ParticlesDesign';
+export const ThemeContext = createContext(null);
+
 
 const Main = () => {
+
+    useLayoutEffect(() => {
+        window.scrollTo(0, 0);
+    });
+    const [theme, setTheme] = useState("light")
+    const themeInfo = { theme, setTheme };
+
     return (
-        <div>
+
+        <ThemeContext.Provider value={themeInfo}>
+        <div data-theme={theme}>
+            <ParticlesDesign />
             <NavBar></NavBar>
             <SpeedDial></SpeedDial>
             <Outlet></Outlet>
@@ -20,6 +34,10 @@ const Main = () => {
             <MySkills></MySkills>
             <Footer></Footer>
         </div>
+    </ThemeContext.Provider>
+
+
+       
     );
 };
 

@@ -4,12 +4,13 @@
     -webkit-text-fill-color: transparent;
   }
 .gradient-bg {
-    background: linear-gradient(45deg, #090911, #ED477C, #8247C9);
+    /* background: linear-gradient(45deg, #090911, #ED477C, #8247C9); */
+    background-color: #500269;
 
   }
 
   .resomecard {
-    transition: background-color 0.5s ease;
+    /* transition: background-color 0.5s ease; */
     
   }
   

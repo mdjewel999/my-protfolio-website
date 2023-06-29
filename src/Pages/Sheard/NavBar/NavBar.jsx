@@ -31,7 +31,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="navbar fixed z-10  bg-opacity-30 max-w-screen-xl autoPlay bg-black text-white">
+      <div className="navbar fixed z-10 bg-neutral bg-opacity-30 max-w-screen-xl autoPlay  text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -57,7 +57,7 @@ const NavBar = () => {
               {navOptions}
             </ul>
           </div>
-          <img className="w-h-8 h-8 rounded-md border-gray-200" src={myimage} alt="" />
+          <img className="w-h-8 h-8 rounded-lg border-gray-200" src={myimage} alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>

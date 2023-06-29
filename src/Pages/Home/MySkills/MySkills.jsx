@@ -35,7 +35,7 @@ const MySkills = () => {
   );
 
   return (
-    <div className="mb-8 p-4">
+    <div className="mb-8 p-4 bg-neutral">
       <div>
         <h1 className="text-center mt-16 text-7xl font-bold gradient-text">
           MY SKILLS
@@ -48,12 +48,12 @@ const MySkills = () => {
           </button>
           {frontendSkills.map((skill, index) => (
             <div key={index} className="skill">
-              <div className="skill-name mt-4 text-2xl">{skill.name}</div>
+              <div className="skill-name mt-4 text-2xl text-white">{skill.name}</div>
               <div
                 className="progress-bar mb-2 mt-3 rounded"
                 style={getGradientStyle(skill.progress)}
               >
-                <div className="progress-text ml-2">{skill.progress}%</div>
+                <div className="progress-text ml-2 text-white">{skill.progress}%</div>
               </div>
             </div>
           ))}
@@ -64,12 +64,12 @@ const MySkills = () => {
           </button>
           {backendSkills.map((skill, index) => (
             <div key={index} className="skill">
-              <div className="skill-name mt-4 text-2xl">{skill.name}</div>
+              <div className="skill-name mt-4 text-2xl text-white">{skill.name}</div>
               <div
                 className="progress-bar mb-2 mt-3 rounded"
                 style={getGradientStyle(skill.progress)}
               >
-                <div className="progress-text ml-2">{skill.progress}%</div>
+                <div className="progress-text ml-2 text-white">{skill.progress}%</div>
               </div>
             </div>
           ))}

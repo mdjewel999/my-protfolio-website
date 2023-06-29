@@ -1,15 +1,17 @@
 import { FaBookReader, FaNodeJs, FaYahoo } from "react-icons/fa";
+import "./OthersSiklls.css"
+
 
 const OthersSiklls = () => {
   return (
     <>
-      <div className="mt-4">
-        <div className="text-center mb-4">
-          <h1 className="text-5xl">PROGRAMMING</h1>
-          <h1 className="text-3xl ">and other skills</h1>
+      <div className="bg-neutral">
+        <div className="text-center mb-8">
+          <h1 className="text-5xl text-white">PROGRAMMING</h1>
+          <h1 className="text-3xl text-white">and other skills</h1>
         </div>
-        <div className="grid grid-cols-3 mb-8">
-          <div className="card w-96 bg-base-100 hover:bg-red-600 text-2xl hover:text-white shadow-xl image-full">
+        <div className="grid grid-cols-3">
+          <div className="card w-96 mb-8 hover:bg-red-600 text-2xl hover:text-white shadow-xl image-full">
             <div className="card-body">
               <h1 className="text-7xl">
                 {" "}
@@ -22,7 +24,7 @@ const OthersSiklls = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96 bg-base-100  hover:bg-red-600 text-2xl  hover:text-white shadow-xl image-full">
+          <div className="card w-96 mb-8 bg-base-100  hover:bg-red-600 text-2xl  hover:text-white shadow-xl image-full">
             <div className="card-body">
               <h1 className="text-7xl">
                 {" "}
@@ -35,7 +37,7 @@ const OthersSiklls = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96 bg-base-100  hover:bg-red-600 text-2xl text-black hover:text-white shadow-xl image-full">
+          <div className="card w-96 mb-8 bg-base-100  hover:bg-red-600 text-2xl text-black hover:text-white shadow-xl image-full">
             <div className="card-body">
               <h1 className="text-7xl">
                 {" "}

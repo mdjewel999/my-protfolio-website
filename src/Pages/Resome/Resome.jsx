@@ -46,7 +46,7 @@ const Resome = () => {
   };
 
   return (
-    <div className=" p-4">
+    <div className=" p-4 gradient-bg text-white">
       <h1 className="text-center mt-16 text-7xl font-bold">My Resume</h1>
       <p className="text-center mt-4"> 1+ YEARS OF EXPERIENCE</p>
       <div className="flex justify-center mt-8">

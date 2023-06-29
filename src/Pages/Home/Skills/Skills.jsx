@@ -16,6 +16,7 @@ import redux from "../../../assets/skills/Redux.png"
 import context from "../../../assets/skills/cotext.png"
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./Skills.css"
 
 AOS.init({
   duration: 1200,
@@ -26,9 +27,9 @@ const Skills = () => {
     AOS.refresh();
   }, []);
   return (
-    <div id="skills" className=" w-full mx-auto">
-      <div>
-        <h1 className="title-text text-4xl text-center mb-8">
+    <div id="skills" className="bg-neutral w-full mx-auto">
+      <div className="">
+        <h1 className="text-white font-bold text-4xl text-center mb-8">
           Technical Skills
         </h1>
       </div>
@@ -37,7 +38,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 hover:duration-1000 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={htmlLogo} alt="HTML" />
@@ -49,7 +50,7 @@ const Skills = () => {
         <div
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={cssLogo} alt="CSS" />
@@ -61,7 +62,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-left"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={bootstrapLogo} alt="Bootstrap" />
@@ -73,7 +74,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={tailwindLogo} alt="Tailwind" />
@@ -85,7 +86,7 @@ const Skills = () => {
         <div
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={javascriptLogo} alt="JavaScript" />
@@ -97,7 +98,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-left"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={reactLogo} alt="React" />
@@ -109,7 +110,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={firebaseLogo} alt="Firebase" />
@@ -121,7 +122,7 @@ const Skills = () => {
         <div
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={nodeJSLogo} alt="Node JS" />
@@ -133,7 +134,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-left"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={expressJSLogo} alt="Express JS" />
@@ -145,7 +146,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={mongoDBLogo} alt="MongoDB" />
@@ -157,7 +158,7 @@ const Skills = () => {
         <div
           data-aos="zoom-in"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={gitHubLogo} alt="GitHub" />
@@ -169,7 +170,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-left"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={gitLogo} alt="GIT" />
@@ -181,7 +182,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={nextLogo} alt="Next Js" />
@@ -193,7 +194,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={redux} alt="Next Js" />
@@ -205,7 +206,7 @@ const Skills = () => {
         <div
           data-aos="fade-down-right"
           data-aos-easing="ease-out-cubic"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className="max-w-sm p-6 bg-white border-2 border-b-violet-400 border-x-0 border-t-0 border-violet-400 hover:-translate-y-2 hover:transition hover:delay-100 rounded-lg shadow dark:bg-violet-400 dark:border-gray-800 text-center hover:bg-violet-400 hover:border-none hover:duration-1000 dark:hover:bg-slate-300 dark:hover:text-slate-900"
         >
           <img className="mx-auto" src={context} alt="Next Js" />

@@ -20,12 +20,12 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="mb-8 p-4">
+    <div id="projects" className="mb-8 p-4 bg-neutral">
       <div className="">
-      <h1 className="text-center font-bold text-7xl text-violet-600 mt-10  pt-4 gap-10">
+      <h1 className="text-center font-bold text-7xl text-white mt-10   gap-10">
         My Portfolio
       </h1>
-      <h2 className="text-center font-bold text-2xl text-violet-600 mt-4">
+      <h2 className="text-center font-bold text-2xl text-white mt-4">
         VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
       </h2>
       </div>
@@ -33,7 +33,7 @@ const Projects = () => {
         {/* shutter camp */}
         <div
           data-aos="fade-up"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-950  hover:-translate-y-2 hover:bg-violet-300 hover:transition-colors hover:delay-300 hover:duration-500 mr-6"
         >
           <div className="mx-auto">
@@ -134,7 +134,7 @@ const Projects = () => {
         {/* disney magic toys */}
         <div
           data-aos="fade-up"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           data-aos-delay="1000"
           className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:hover:bg-gray-950  dark:border-gray-700  hover:-translate-y-2 hover:bg-violet-300 hover:transition-colors hover:delay-300 hover:duration-500"
         >
@@ -232,7 +232,7 @@ const Projects = () => {
         {/* cooking alchemist */}
         <div
           data-aos="fade-up"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-950  hover:-translate-y-2 hover:bg-violet-300 hover:transition-colors hover:delay-300 hover:duration-500 mr-6 mt-6"
         >
           <div className="mx-auto">
@@ -331,7 +331,7 @@ const Projects = () => {
         {/* elite Recruiting */}
         <div
           data-aos="fade-up"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
           data-aos-delay="1000"
           className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-950   hover:-translate-y-2 hover:bg-violet-300 hover:transition-colors hover:delay-300 hover:duration-500 mr-6 mt-6 px-4"
         >

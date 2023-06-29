@@ -12,3 +12,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .banner-img {
+    width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  }
+  
+  .header-banner{
+    background: url("../../../assets/Banner/banner.png") no-repeat fixed;
+    /* background-color: yellow; */
+}
+  
