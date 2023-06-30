@@ -1,21 +1,19 @@
 import { FaBookReader, FaNodeJs, FaYahoo } from "react-icons/fa";
-import "./OthersSiklls.css"
-
+import "./OthersSiklls.css";
 
 const OthersSiklls = () => {
   return (
     <>
-      <div className="bg-neutral">
-        <div className="text-center mb-8">
-          <h1 className="text-5xl text-white">PROGRAMMING</h1>
-          <h1 className="text-3xl text-white">and other skills</h1>
+      <div className="bg-neutral w-full mx-auto">
+        <div className="text-center mb-8"> <br />
+          <h1 className="text-center font-bold text-5xl text-white">PROGRAMMING</h1>
+          <h1 className="text-center font-bold text-5xl text-white mt-4"> <span className="text-center font-bold text-2xl">AND</span> SKILLS</h1>
         </div>
-        <div className="grid grid-cols-3">
-          <div className="card w-96 mb-8 hover:bg-red-600 text-2xl hover:text-white shadow-xl image-full">
-            <div className="card-body">
+        <div className="grid grid-cols-1 mb-8 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full mx-auto">
+          <div className="card w-96 mb-8 hover:bg-base-100 text-2xl hover:text-white shadow-xl image-full">
+            <div className="card-body othercard">
               <h1 className="text-7xl">
-                {" "}
-                <FaBookReader />{" "}
+                <FaBookReader />
               </h1>
               <h2 className="card-title">Expertise</h2>
               <p>
@@ -24,11 +22,10 @@ const OthersSiklls = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96 mb-8 bg-base-100  hover:bg-red-600 text-2xl  hover:text-white shadow-xl image-full">
-            <div className="card-body">
+          <div className="card w-96 mb-8 hover:bg-base-100 text-2xl hover:text-white shadow-xl image-full">
+            <div className="card-body othercard">
               <h1 className="text-7xl">
-                {" "}
-                <FaNodeJs />{" "}
+                <FaNodeJs />
               </h1>
               <h2 className="card-title">Comfortable</h2>
               <p>
@@ -37,17 +34,17 @@ const OthersSiklls = () => {
               </p>
             </div>
           </div>
-          <div className="card w-96 mb-8 bg-base-100  hover:bg-red-600 text-2xl text-black hover:text-white shadow-xl image-full">
-            <div className="card-body">
+          <div className="card w-96 mb-8 hover:bg-base-100 text-2xl text-black hover:text-white shadow-xl image-full">
+            <div className="card-body othercard">
               <h1 className="text-7xl">
-                {" "}
-                <FaYahoo />{" "}
+                <FaYahoo />
               </h1>
               <h2 className="card-title">Familiar</h2>
               <p>Vuejs, TypeScript, GraphQL Tools: Heroku, Netlify, VS Code</p>
             </div>
           </div>
         </div>
+        <hr />
       </div>
     </>
   );

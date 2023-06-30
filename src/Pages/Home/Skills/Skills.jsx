@@ -27,13 +27,13 @@ const Skills = () => {
     AOS.refresh();
   }, []);
   return (
-    <div id="skills" className="bg-neutral w-full mx-auto">
+    <div id="skills" className="bg-neutral w-full mx-auto"> <br />
       <div className="">
-        <h1 className="text-white font-bold text-4xl text-center mb-8">
+        <h1 className="text-center font-bold text-5xl text-white mb-8">
           Technical Skills
         </h1>
       </div>
-      <div className="bg-violet-300 relative transition duration-200 transform hover:-translate-y-2 rounded shadow-2xl hover:shadow-2xl dark:bg-violet-900 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 p-6 hover:bg-gray-900">
+      <div className="bg-violet-300 mb-8 relative transition duration-200 transform hover:-translate-y-2 rounded shadow-2xl hover:shadow-2xl dark:bg-violet-900 grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-10 p-6 hover:bg-gray-900">
         {/* Html */}
         <div
           data-aos="fade-down-right"
@@ -216,7 +216,7 @@ const Skills = () => {
         </div>
       </div>
 
-      <hr className="my-6 border-violet-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <hr className="" />
     </div>
   );
 };

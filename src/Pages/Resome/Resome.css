@@ -5,7 +5,8 @@
   }
 .gradient-bg {
     /* background: linear-gradient(45deg, #090911, #ED477C, #8247C9); */
-    background-color: #500269;
+    /* background-color: #500269; */
+    background-color: #2B3440;
 
   }
 
@@ -15,7 +16,7 @@
   }
   
   .resomecard:hover {
-    background-color: #762644; 
+    background-color: #606770; 
     cursor: pointer;
   }
   .tab{

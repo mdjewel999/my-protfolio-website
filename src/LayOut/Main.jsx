@@ -9,6 +9,7 @@ import MySkills from "../Pages/Home/MySkills/MySkills";
 
 import { createContext, useLayoutEffect, useState } from 'react';
 import ParticlesDesign from '../components/ParticlesDesign';
+import Resome from "../Pages/Resome/Resome";
 export const ThemeContext = createContext(null);
 
 
@@ -31,6 +32,7 @@ const Main = () => {
             <OthersSiklls></OthersSiklls>
             <Skills></Skills>
             <Projects></Projects>
+            <Resome></Resome>
             <MySkills></MySkills>
             <Footer></Footer>
         </div>

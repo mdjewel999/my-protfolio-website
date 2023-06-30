@@ -35,15 +35,15 @@ const MySkills = () => {
   );
 
   return (
-    <div className="mb-8 p-4 bg-neutral">
+    <div className=" p-4 bg-neutral">
       <div>
-        <h1 className="text-center mt-16 text-7xl font-bold gradient-text">
+        <h1 className="text-center font-bold text-5xl text-white mt-16 ">
           MY SKILLS
         </h1>
       </div>
-      <div className="skills grid grid-cols-2 gap-4">
+      <div className="skills grid grid-cols-2 gap-4 mb-8">
         <div className="frontend-skills">
-          <button className=" gradient-text p-2 rounded-md text-4xl font-semibold mt-8 mb-4">
+          <button className=" gradient-text p-2 rounded-md text-4xl font-semibold mt-8">
             Frontend
           </button>
           {frontendSkills.map((skill, index) => (
@@ -75,6 +75,7 @@ const MySkills = () => {
           ))}
         </div>
       </div>
+      <hr />
     </div>
   );
 };

@@ -1,0 +1,29 @@
+/* NavBar.css */
+
+/* ...existing styles... */
+
+/* Modify hover color */
+.navbar ul li:hover {
+    background-color: #570DF8;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 700px;
+    
+  }
+  
+  /* Modify font size */
+  .navbar ul li a {
+    font-size: 16px;
+    font-weight: 600px;
+  }
+  
+  /* Modify font weight */
+  .navbar ul li a:hover {
+    color: white;
+    
+  }
+  .btn-details:hover{
+    background-color: #570DF8;
+    color: white;
+}
+  

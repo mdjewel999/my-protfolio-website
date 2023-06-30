@@ -1,40 +1,52 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import myimage from "../../../assets/Banner/jewel2.jpg"
+import myimage from "../../../assets/Banner/jewel2.jpg";
+import './NavBar.css'
 
 const NavBar = () => {
-  
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const handleMenuToggle = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
+  const closeMenu = () => {
+    setIsMenuOpen(false);
+  };
+
   const navOptions = (
     <>
-    <li>
-      <Link to="/">HOME</Link>
-    </li>
-    <li>
-      <Link to="myskills">MY SKILLS</Link>
-    </li>
-    <li>
-      <Link to="protfolio">PORTFOLIO</Link>
-    </li>
-    <li>
-      <Link to="resome">RESUME</Link>
-    </li>
-    <li>
-      <Link>TESTIMONIAL</Link>
-    </li>
-    <li>
-      <Link to="contact">CONTACT</Link>
-    </li>
-    
-  </>
-);
-          
- 
+      <li onClick={closeMenu}>
+        <Link to="/">HOME</Link>
+      </li>
+      <li onClick={closeMenu}>
+        <Link to="myskills">MY SKILLS</Link>
+      </li>
+      <li onClick={closeMenu}>
+        <Link to="protfolio">PORTFOLIO</Link>
+      </li>
+      <li onClick={closeMenu}>
+        <Link to="resome">RESUME</Link>
+      </li>
+      <li onClick={closeMenu}>
+        <Link to="testimonial">TESTIMONIAL</Link>
+      </li>
+      <li onClick={closeMenu}>
+        <Link to="contact">CONTACT</Link>
+      </li>
+    </>
+  );
 
   return (
     <>
-      <div className="navbar fixed z-10 bg-neutral bg-opacity-30 max-w-screen-xl autoPlay  text-white">
+      <div className="navbar fixed z-10 bg-neutral bg-opacity-30 w-full mx-auto  max-w-screen-xl autoPlay text-white">
         <div className="navbar-start">
           <div className="dropdown">
-            <label tabIndex={0} className="btn btn-ghost lg:hidden">
+            <label
+              tabIndex={0}
+              className="btn btn-ghost lg:hidden"
+              onClick={handleMenuToggle}
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="h-5 w-5"
@@ -50,20 +62,23 @@ const NavBar = () => {
                 />
               </svg>
             </label>
-            <ul
-              tabIndex={0}
-              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
-            >
-              {navOptions}
-            </ul>
+            {isMenuOpen && (
+              <ul className="menu menu-compact dropdown-content mt-3 p-2 shadow font-bold rounded-box w-52">
+                {navOptions}
+              </ul>
+            )}
           </div>
-          <img className="w-h-8 h-8 rounded-lg border-gray-200" src={myimage} alt="" />
+          <img
+            className="w-h-8 h-8 rounded-lg border-gray-200"
+            src={myimage}
+            alt=""
+          />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Get started</a>
+          <a className="btn btn-details">Get started</a>
         </div>
       </div>
     </>

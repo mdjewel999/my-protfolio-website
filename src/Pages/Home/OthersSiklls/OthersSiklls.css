@@ -3,3 +3,6 @@
     background-color: #4E026F;
 }
   
+.othercard:hover {
+    cursor: pointer;
+  }

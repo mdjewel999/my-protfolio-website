@@ -5,7 +5,7 @@ import './Contact.css'
 
 const Contact = () => {
   return (
-    <div className="mb-8 p-4 backgroundColor text-white">
+    <div className=" p-4 backgroundColor text-white">
       <div>
         <h1 className="text-center mt-16 text-5xl font-bold">
           Contact With Me
@@ -110,6 +110,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
+      <hr />
     </div>
   );
 };

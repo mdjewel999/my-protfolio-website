@@ -7,6 +7,7 @@ import project4 from "../../../assets/projects//Screenshot 2023-06-15 012502.png
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
+import './Projects.css'
 
 const Projects = () => {
   useEffect(() => {
@@ -20,16 +21,16 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="mb-8 p-4 bg-neutral">
+    <div id="projects" className=" p-4 bg-neutral">
       <div className="">
-      <h1 className="text-center font-bold text-7xl text-white mt-10   gap-10">
+      <h1 className="text-center font-bold text-5xl text-white mt-10   gap-10">
         My Portfolio
       </h1>
       <h2 className="text-center font-bold text-2xl text-white mt-4">
         VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
       </h2>
       </div>
-      <div className="w-full  mx-auto my-6 grid sm:grid-cols-1 lg:grid-cols-2">
+      <div className="my-6 mb-8 w-full  mx-auto  grid sm:grid-cols-1 lg:grid-cols-2">
         {/* shutter camp */}
         <div
           data-aos="fade-up"
@@ -51,7 +52,7 @@ const Projects = () => {
             <div>
               <button
                 type="button"
-                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-900 bg-gray-100 border border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex items-center  justify-between w-full p-5 font-medium text-left text-gray-900 bg-gray-100 border border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-white dark:bg-gray-800 hover:bg-gray-100 btn-details"
                 onClick={toggleAccordion}
                 aria-expanded={isOpen}
                 aria-controls="accordion-arrow-icon-body-1"
@@ -118,10 +119,10 @@ const Projects = () => {
                     <Link to="https://royal-drawing-school.web.app">
                       Live Side
                     </Link>
-                    <Link to="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-mdjewel999">
+                    <Link to="https://github.com/mdjewel999/royal-drawing-school-client">
                       Sever side
                     </Link>
-                    <Link to="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-mdjewel999">
+                    <Link to="https://github.com/mdjewel999/royal-drawing-school-server">
                       Client side
                     </Link>
                   </div>
@@ -153,7 +154,7 @@ const Projects = () => {
             <div>
               <button
                 type="button"
-                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-900 bg-gray-100 border border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-900 bg-gray-100 border border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-white dark:bg-gray-800 hover:bg-gray-100 btn-details"
                 onClick={toggleAccordion}
                 aria-expanded={isOpen}
                 aria-controls="accordion-arrow-icon-body-1"
@@ -250,7 +251,7 @@ const Projects = () => {
             <div>
               <button
                 type="button"
-                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-900 bg-gray-100 border border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-900 bg-gray-100 border border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-white dark:bg-gray-800 hover:bg-gray-100 btn-details"
                 onClick={toggleAccordion}
                 aria-expanded={isOpen}
                 aria-controls="accordion-arrow-icon-body-1"
@@ -350,7 +351,7 @@ const Projects = () => {
             <div>
               <button
                 type="button"
-                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-900 bg-gray-100 border border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-white dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800"
+                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-900 bg-gray-100 border border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-white dark:bg-gray-800 hover:bg-gray-100 btn-details"
                 onClick={toggleAccordion}
                 aria-expanded={isOpen}
                 aria-controls="accordion-arrow-icon-body-1"
@@ -410,10 +411,103 @@ const Projects = () => {
                     <Link to="https://royal-drawing-school.web.app">
                       Live Side
                     </Link>
-                    <Link to="https://github.com/programming-hero-web-course1/b7a12-summer-camp-server_side-mdjewel999">
+                    <Link to="https://github.com/mdjewel999/royal-drawing-school-client">
                       Sever side
                     </Link>
-                    <Link to="https://github.com/programming-hero-web-course1/b712-summer-camp-client-side-mdjewel999">
+                    <Link to="https://github.com/mdjewel999/royal-drawing-school-server">
+                      Client side
+                    </Link>
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+        <div
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          className=" bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-950   hover:-translate-y-2 hover:bg-violet-300 hover:transition-colors hover:delay-300 hover:duration-500 mr-6 mt-6 px-4"
+        >
+          <div className="mx-auto">
+            <img
+              className="rounded-lg h-[300px] object-cover mx-auto border-violet-600 px-3 mt-4"
+              src={project4}
+              alt=""
+            />
+            <h3 className="title-text text-center mt-3 text-2xl dark:text-white">
+              Elite Recruiting
+            </h3>
+            <hr className="my-6 border-violet-500 sm:mx-auto dark:border-gray-700 lg:my-8" />
+          </div>
+          <div className="p-5">
+            <div>
+              <button
+                type="button"
+                className="flex items-center justify-between w-full p-5 font-medium text-left text-gray-900 bg-gray-100 border border-gray-200 rounded-t-xl focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 dark:border-gray-700 dark:text-white dark:bg-gray-800 hover:bg-gray-100 btn-details"
+                onClick={toggleAccordion}
+                aria-expanded={isOpen}
+                aria-controls="accordion-arrow-icon-body-1"
+              >
+                Project Details
+              </button>
+              {isOpen && (
+                <div
+                  id="accordion-arrow-icon-body-1"
+                  aria-labelledby="accordion-arrow-icon-heading-1"
+                  className="p-5 border border-b-0 border-gray-200 dark:border-gray-700 dark:bg-gray-900"
+                >
+                  <div>
+                    <h3 className="text-xl text-violet-600 dark:text-violet-600 font-semibold ">
+                      Description:{" "}
+                    </h3>
+                    <p className="dark:text-white">
+                      This is a project for those who are willing to find a new
+                      job and here they can find their dream job. This is
+                      basically a react based project where remote and onsite
+                      job opportunities are showing.{" "}
+                    </p>
+                    <h3 className="text-xl font-semibold text-violet-600 dark:text-violet-600">
+                      Features:{" "}
+                    </h3>
+
+                    <ul className="dark:text-white">
+                      <li className="flex">
+                        <BsCheckCircleFill className="mt-2 mr-2 text-green-500"></BsCheckCircleFill>{" "}
+                        Various categories of jobs are available where user can
+                        apply.
+                      </li>
+                      <li className="flex">
+                        <BsCheckCircleFill className="mt-1 mr-2 text-green-500 w-5"></BsCheckCircleFill>
+                        Implemented recharts for showing data in a stacked area
+                        charts.
+                      </li>
+                      <li className="flex">
+                        <BsCheckCircleFill className="mt-1 mr-2 text-green-500 w-7"></BsCheckCircleFill>
+                        On applied job section user can see their added jobs on
+                        the basis of their preferences on remote or onsite.
+                      </li>
+                    </ul>
+                  </div>
+                  {/* technology */}
+                  <div>
+                    <p>
+                      {" "}
+                      <span className="text-xl font-semibold text-violet-600 dark:text-violet-600">
+                        Technologies:{" "}
+                      </span>
+                      Tailwind, daisyUI, React,lottie-react,heroicons,recharts
+                    </p>
+                  </div>
+                  {/* links */}
+                  <div className="mt-4 flex sm:flex-col lg:flex-row justify-around">
+                    <Link to="https://royal-drawing-school.web.app">
+                      Live Side
+                    </Link>
+                    <Link to="https://github.com/mdjewel999/royal-drawing-school-client">
+                      Sever side
+                    </Link>
+                    <Link to="https://github.com/mdjewel999/royal-drawing-school-server">
                       Client side
                     </Link>
                   </div>
@@ -423,6 +517,7 @@ const Projects = () => {
           </div>
         </div>
       </div>
+      <hr />
     </div>
   );
 };

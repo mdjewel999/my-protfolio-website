@@ -46,9 +46,9 @@ const Resome = () => {
   };
 
   return (
-    <div className=" p-4 gradient-bg text-white">
-      <h1 className="text-center mt-16 text-7xl font-bold">My Resume</h1>
-      <p className="text-center mt-4"> 1+ YEARS OF EXPERIENCE</p>
+    <div className=" p-4 gradient-bg text-white ">
+      <h1 className="text-center font-bold text-5xl text-white mt-16">My Resume</h1>
+      <p className="text-center font-bold text-2xl text-white mt-4"> 1+ YEARS OF EXPERIENCE</p>
       <div className="flex justify-center mt-8">
         <div className="tabs tabs-boxed">
           <div>
@@ -235,8 +235,11 @@ const Resome = () => {
          
         </div>
       )}
-     
+      <br />
+      <br />
+     <hr />
     </div>
+    
   );
 };
 
