@@ -70,7 +70,7 @@ const NavBar = () => {
             )}
           </div>
           <img
-            className="w-h-8 h-8 rounded-lg border-gray-200"
+            className="w-h-8 h-8 rounded-full border-gray-200"
             src={myimage}
             alt=""
           />
