@@ -3,8 +3,18 @@ import "slick-carousel/slick/slick-theme.css";
 import { TypeAnimation } from "react-type-animation";
 import myImage from "../../../assets/Banner/jewel2.jpg";
 import "./Home.css";
+import { AiOutlineCloudDownload } from "react-icons/ai";
+
 
 const Home = () => {
+
+  const handleDownloadResume = () => {
+    window.location.href = "https://drive.google.com/uc?export=download&id=1MCjL9-mFQW891QqdlgltWEDhC3fhHUUO";
+   
+  };
+
+
+
   return (
     <div>
       <div className="hero header-banner min-h-screen bg-neutral">
@@ -41,7 +51,14 @@ const Home = () => {
               MongoDB, and WordPress. I love bug/error fixing. Bug fixing and
               website optimization is my favorite task.
             </p>
-            <button className="btn btn-primary">Get Started</button>
+           <div className="my-8">
+            <button
+              onClick={handleDownloadResume}
+              className="text-white uppercase font-bold flex items-center gap-2 bg-gradient-to-r from-blue-400 hover:to-blue-400 via-purple-500 to-pink-500 hover:from-pink-500 py-2 px-3 rounded-full"
+            >
+              Download Resume <AiOutlineCloudDownload />
+            </button>
+          </div>
           </div>
           <div className="banner-img">
             <img src={myImage} className="" alt="Banner" />

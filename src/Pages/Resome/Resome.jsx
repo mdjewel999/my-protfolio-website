@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import './Resome.css'
+import { AiOutlineCloudDownload } from "react-icons/ai";
+
 
 
 
@@ -45,6 +46,11 @@ const Resome = () => {
     setActiveTab(tabNumber);
   };
 
+  const handleDownloadResume = () => {
+    window.location.href = "https://drive.google.com/uc?export=download&id=1MCjL9-mFQW891QqdlgltWEDhC3fhHUUO";
+   
+  };
+
   return (
     <div className=" p-4 gradient-bg text-white ">
       <h1 className="text-center font-bold text-5xl text-white mt-16">My Resume</h1>
@@ -77,7 +83,6 @@ const Resome = () => {
           </div>
           <div>
             <a
-            href="My-Resume.pdf"
               className={`tab ${activeTab === 4 ? "tab-active" : ""}`}
               onClick={() => handleTabClick(4)}
             >
@@ -225,13 +230,13 @@ const Resome = () => {
       )}
 
       {activeTab === 4 && (
-        <div className="card text-center mt-8">
-          <Link to="https://drive.google.com/file/d/1MCjL9-mFQW891QqdlgltWEDhC3fhHUUO/view?usp=sharing">
-            {" "}
-            <button className="btn btn-outline btn-secondary">
-              Download Resume
+        <div className="card w-1/5 mx-auto text-center mt-8">
+         <button
+              onClick={handleDownloadResume}
+              className="text-white  text-center uppercase font-bold flex justify-center items-center gap-2 bg-gradient-to-r from-blue-400 hover:to-blue-400 via-purple-500 to-pink-500 hover:from-pink-500 py-2 px-3 rounded-full"
+            >
+              Download Resume <AiOutlineCloudDownload />
             </button>
-          </Link>
          
         </div>
       )}

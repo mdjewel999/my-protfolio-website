@@ -10,6 +10,7 @@ import MySkills from "../Pages/Home/MySkills/MySkills";
 import { createContext, useLayoutEffect, useState } from 'react';
 import ParticlesDesign from '../components/ParticlesDesign';
 import Resome from "../Pages/Resome/Resome";
+// import ProjectsPage from "../Pages/ProjectsPage/ProjectsPage";
 export const ThemeContext = createContext(null);
 
 
@@ -32,6 +33,7 @@ const Main = () => {
             <OthersSiklls></OthersSiklls>
             <Skills></Skills>
             <Projects></Projects>
+            {/* <ProjectsPage></ProjectsPage> */}
             <Resome></Resome>
             <MySkills></MySkills>
             <Footer></Footer>

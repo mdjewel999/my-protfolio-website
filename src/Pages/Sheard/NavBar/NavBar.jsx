@@ -4,6 +4,7 @@ import myimage from "../../../assets/Banner/jewel2.jpg";
 import './NavBar.css'
 
 const NavBar = () => {
+  
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const handleMenuToggle = () => {
@@ -29,7 +30,7 @@ const NavBar = () => {
         <Link to="resome">RESUME</Link>
       </li>
       <li onClick={closeMenu}>
-        <Link to="testimonial">TESTIMONIAL</Link>
+        <Link to="/">TESTIMONIAL</Link>
       </li>
       <li onClick={closeMenu}>
         <Link to="contact">CONTACT</Link>
@@ -78,7 +79,7 @@ const NavBar = () => {
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-details">Get started</a>
+          <Link to="contact" className="btn btn-details">Hire Me</Link>
         </div>
       </div>
     </>

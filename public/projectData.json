@@ -1,0 +1,205 @@
+[
+    {
+      "id": 1,
+      "projectName": "G3 Artechture",
+      "technology": ["HTML5", "CSS3", "CSS3"],
+      "description": [
+        "Use HTML, CSS3", "CSS", "HTML5"
+      ],
+      "clientSite": "https://github.com/mdjewel999/assingnment-two",
+      "liveSite": "https://mdjewel999.github.io/assingnment-two/",
+      "image": "https://i.ibb.co/ct0GxTY/G3-Artechture.png",
+      "madeWith": ["HTML", "CSS"]
+    },
+    {
+      "id": 2,
+      "projectName": "IT Services",
+      "technology": ["HTML5", "CSS3"],
+      "description": [
+        "Use HTML, CSS and Bootstrap", "Use Bootstrap as css framework"
+      ],
+      "clientSite": "https://github.com/mdjewel999/assignment-one",
+      "liveSite": "file:///F:/Programen%20Hero%20All%20Class/Assignment-one/index.html",
+      "image": "https://i.ibb.co/XW6WTXT/it.png",
+      "madeWith": ["HTML", "CSS"]
+    },
+   
+    {
+      "id": 4,
+      "projectName": "Justice",
+      "technology": ["HTML5", "CSS3","CSS3", "HTML5", "Bootstrap"],
+      "description": [
+        "Use HTML, CSS and Bootstrap", "Use Bootstrap as css framework"
+      ],
+      "clientSite": "https://github.com/mdjewel999/justice-legal-solution-resources",
+      "liveSite": "https://magnificent-biscotti-b5c73f.netlify.app/",
+      "image": "https://i.ibb.co/Z6fPbx4/justices.png",
+      "madeWith": ["HTML", "CSS"]
+    },
+    {
+      "id": 5,
+      "projectName": "AI Universe Hub",
+      "technology": ["HTML5", "CSS3", "Tailwind css" ],
+      "description": [
+        "Used HTML, CSS", "Use tailwind as css framework"
+      ],
+      "clientSite": "",
+      "liveSite": "https://app.netlify.com/sites/comfy-tapioca-2423b9/overview",
+      "image": "https://i.ibb.co/dksNT3q/AI-Universe-Hub.png",
+      "madeWith": ["HTML", "CSS"]
+    },
+    {
+      "id": 6,
+      "projectName": "Geometry genius",
+      "technology": ["Javascript","HTML5", "CSS3", "Tailwind css"],
+      "description": [
+        "Used HTML, CSS and Javascript", "Use tailwind as css framework", "Not so much functionality added"
+      ],
+      "clientSite": "https://github.com/mdjewel999/assignment-geometry-genius-resources",
+      "liveSite": "https://prismatic-manatee-ba0147.netlify.app/",
+      "image": "https://i.ibb.co/fGHbwgm/Geometry-genius.png",
+      "madeWith": ["JavaScript", "HTML", "CSS"]
+    },
+
+
+    {
+      "id": 7,
+      "projectName": "AI Universe Hub",
+      "technology": ["Javascript", "HTML5", "CSS3", "Tailwind css"],
+      "description": [
+        "AI Universe site is javascript based site", "added modal with javascript", "Used bookmark functionality"
+      ],
+      "clientSite": "https://github.com/mdjewel999/AI-Universe-Hub",
+      "liveSite": "https://comfy-tapioca-2423b9.netlify.app/",
+      "image": "https://i.ibb.co/dksNT3q/AI-Universe-Hub.png",
+      "madeWith": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 8,
+      "projectName": "Knowledge Cafe",
+      "technology": ["React.js","Javascript", "HTML5", "CSS3", "Tailwind css", "Firebase"],
+      "description": [
+        "Knowledge Cafe site is for searching books", "Implemented react router", "User can read different books"
+      ],
+      "clientSite": "https://github.com/mdjewel999/knowledge-cafe",
+      "liveSite": "https://spectacular-pithivier-995efa.netlify.app/#action2",
+      "image": "https://i.ibb.co/K25F7F7/knowledge-cafe.png",
+      "madeWith": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 9,
+      "projectName": "Geometry Genius",
+      "technology": ["Javascript","HTML5", "CSS3", "Tailwind css"],
+      "description": [
+        "Used HTML, CSS and Javascript", "Use tailwind as css framework", "Not so much functionality added"
+      ],
+      "clientSite": "https://github.com/mdjewel999/assignment-geometry-genius-resources",
+      "liveSite": "https://prismatic-manatee-ba0147.netlify.app/",
+      "image": "https://i.ibb.co/fGHbwgm/Geometry-genius.png",
+      "madeWith": ["JavaScript", "HTML", "CSS"]
+    },
+    {
+      "id": 10,
+      "projectName": "HAPPY TOY HOUSE",
+      "technology": ["React.js", "Express.js", "Javascript", "Mongodb", "Firebase", "HTML5", "CSS3", "Tailwind css"],
+      "description":[
+        "Full stack project with MERN technology", "Added backend functionality with Express.js", "Implemented Firebase authentication system", "Use Mongodb for store data", "Use private route for make secure routing"
+      ],
+      "clientSite": "https://github.com/mdjewel999/happy-toy-house-client2",
+      "serverSite": "https://github.com/mdjewel999/happy-toy-house-server2",
+      "liveSite": "https://happy-toy-house-508d2.web.app/",
+      "image": "https://i.ibb.co/c6r16MZ/HAPPY-TOY-HOUSE.png",
+      "madeWith": ["React", "JavaScript"]
+    },
+    {
+      "id": 11,
+      "projectName": "Needed Job",
+      "technology": ["React.js","Javascript", "HTML5", "CSS3", "Tailwind css"],
+      "description": [
+        "Get jobs is a job searching and applying site", "Added applied job functionality with localhost", "Only react based website and no backend used"
+      ],
+      "clientSite": "https://github.com/mdjewel999/Needed-Job",
+      "liveSite": "https://celadon-medovik-3de24a.netlify.app/",
+      "image": "https://i.ibb.co/kgjgXTd/Needed-Job.png",
+      "madeWith": ["React", "JavaScript"]
+    },
+   
+   
+    {
+      "id": 13,
+      "projectName": "HEALTHY FOOD RECIPE",
+      "technology": ["React.js", "Express.js", "Javascript", "Firebase", "HTML5", "CSS3", "React Boostrap"],
+      "description":[
+        "Full stack project with MERN technology", "Added backend functionality with Express.js", "Implemented Firebase authentication system", "Use Mongodb for store data", "Use private route for make secure routing"
+      ],
+      "clientSite": "https://github.com/mdjewel999/healthy-food-recipe-recipe-client",
+      "serverSite": "https://github.com/mdjewel999/healthy-food-recipe-chife-server",
+      "liveSite": "https://healthy-food-recipe-302b2.web.app/category/0",
+      "image": "https://i.ibb.co/PWhkZNb/HEALTHY-FOOD-RECIPE.png",
+      "madeWith": ["React", "JavaScript"]
+    },
+    {
+      "id": 14,
+      "projectName": "Royal Drawing School",
+      "technology": ["React.js", "Express.js","Firebase", "HTML5", "CSS3", "React Boostrap"],
+      "description":[
+        "Full stack project with MERN technology", "Added backend functionality with Express.js", "Implemented Firebase authentication system", "Use private route for make secure routing"
+      ],
+      "clientSite": "https://github.com/mdjewel999/royal-drawing-school-client",
+      "serverSite": "https://github.com/mdjewel999/royal-drawing-school-server",
+      "liveSite": "https://royal-drawing-school.web.app/",
+      "image": "https://i.ibb.co/TTwrL2c/royal-drawing.png",
+      "madeWith": ["React"]
+    },
+    {
+      "id": 15,
+      "projectName": "Car Doctor",
+      "technology": ["React.js", "Express.js","Firebase", "HTML5", "CSS3", "Tailwind css"],
+      "description":[
+        "Full stack project with MERN technology", "Added backend functionality with Express.js", "Implemented Firebase authentication system", "Use Mongodb for store data", "Use private route for make secure routing"
+      ],
+      "clientSite": "https://github.com/mdjewel999/card-doctor-client",
+      "serverSite": "https://github.com/mdjewel999/car-doctor-server",
+      "liveSite": "https://cars-doctor-1a22a.web.app/",
+      "image": "https://i.ibb.co/BgnyLPs/car-doctor.png",
+      "madeWith": ["React","Express", "Mongodb"]
+    },
+    {
+      "id": 16,
+      "projectName": "Summer Camp",
+      "technology": ["React.js", "Express.js", "Javascript", "Mongodb", "Firebase", "HTML5", "CSS3", "Tailwind css", "Stripe"],
+      "description":[
+        "Full stack project with MERN technology", "Added backend functionality with Express.js", "Implemented Firebase authentication system", "Use Mongodb for store data", "Use private route for make secure routing", "Implement stripe payment gateway system", "Added image file uploading system", "Implement dashboard", "Added admin functionality"
+      ],
+      "clientSite": "https://github.com/mdjewel999/royal-drawing-school-client",
+      "serverSite": "https://github.com/mdjewel999/royal-drawing-school-server",
+      "liveSite": "https://royal-drawing-school.web.app/",
+      "image": "https://i.ibb.co/TTwrL2c/royal-drawing.png",
+      "madeWith": ["React","Express", "Mongodb" ]
+    },
+    {
+      "id": 12,
+      "projectName": "Android App",
+      "technology": ["React.js","Javascript", "HTML5", "CSS3", "Tailwind css"],
+      "description": [
+        "Site for searching different meals in the world", "Added search functionality", "Use api for collection meal data"
+      ],
+      "clientSite": "",
+      "liveSite": "https://app.netlify.com/sites/ephemeral-pie-3ab689/overview",
+      "image": "https://i.ibb.co/6rhDjdm/app.png",
+      "madeWith": ["React"]
+    },
+    {
+      "id": 17,
+      "projectName": "quiz-hero",
+      "technology": ["Javascript","HTML5", "CSS3", "Tailwind css"],
+      "description":[
+        "Used HTML, CSS and Javascript", "Use tailwind as css framework", "Not so much functionality added"
+      ],
+      "clientSite": "https://github.com/mdjewel999/quiz-hero",
+      "liveSite": "https://symphonious-rabanadas-dd8d92.netlify.app/",
+      "image": "https://i.ibb.co/NSStcWS/Screenshot-2023-07-01-at-21-42-49-Quiz-Hero.png",
+      "madeWith": ["JavaScript", "HTML", "CSS"]
+    }
+  ]
+  
