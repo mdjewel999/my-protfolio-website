@@ -79,7 +79,7 @@ const NavBar = () => {
           <ul className="menu menu-horizontal px-1">{navOptions}</ul>
         </div>
         <div className="navbar-end">
-          <Link to="contact" className="btn btn-details">Hire Me</Link>
+          <Link to="contact" className="bg-gradient-to-r from-blue-400 hover:to-blue-400 via-purple-500 to-pink-500 hover:from-pink-500 py-2 px-3 rounded-full">Hire Me</Link>
         </div>
       </div>
     </>
