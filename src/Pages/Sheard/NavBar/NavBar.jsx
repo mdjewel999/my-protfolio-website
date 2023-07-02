@@ -40,7 +40,7 @@ const NavBar = () => {
 
   return (
     <>
-      <div className="navbar fixed z-10 bg-neutral bg-opacity-30 w-full mx-auto  max-w-screen-xl autoPlay text-white">
+      <div className="navbar p-4 fixed z-10 bg-neutral bg-opacity-30 w-full mx-auto  max-w-screen-xl autoPlay text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <label
@@ -70,7 +70,7 @@ const NavBar = () => {
             )}
           </div>
           <img
-            className="w-h-8 h-8 rounded-full border-gray-200"
+            className="w-h-10 h-10 rounded-full border-gray-200"
             src={myimage}
             alt=""
           />
